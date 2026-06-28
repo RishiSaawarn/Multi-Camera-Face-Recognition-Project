@@ -1,4 +1,4 @@
-# Face Recognition Project 2
+# Multi-Camera Face Recognition Project
 
 A distributed real-time computer vision pipeline for **face detection**, **face recognition**, and **anti-spoofing** using live video streams. The system is designed to process multiple camera feeds concurrently and supports both local visualization and remote MJPEG streaming.
 
