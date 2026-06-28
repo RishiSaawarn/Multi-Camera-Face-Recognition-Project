@@ -1,0 +1,17 @@
+# requirements.txt — face_recognition_project2
+# Install with:  pip install -r requirements.txt
+#
+# Only 3 packages needed — all have pre-built wheels for Windows AND ARM64 (RPi 5).
+
+# Core image processing
+opencv-python>=4.9.0
+
+# Numerical computing
+numpy>=1.26.0
+
+# ONNX Runtime — runs YOLOv8n-face ONNX on CPU
+# Works on both x86-64 (Windows/Linux) and ARM64 (Raspberry Pi 5)
+onnxruntime>=1.17.0
+
+# Optional — useful if you add sklearn-based matching later
+# scikit-learn>=1.4.0
